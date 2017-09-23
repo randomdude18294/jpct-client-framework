@@ -13,3 +13,8 @@ Perfect for beginner jPCT users and level 3D game developers who aspire to creat
 
 This project is basically an overall compilation of jPCT demo code, and helper classes released by community members. It should not be used to create a production game, but instead, could be referenced for demonstration purposes..
 Feel free to use the source code however you'd like. I hope this helps someone out there :)...
+
+Special thanks:
+- words (me)
+- EgonOlsen (terrains, sky, misc)
+- r a f t (2d stuff)
