@@ -109,18 +109,13 @@ public class SplatterTerrain {
 		/*
 		 * Build the terrain here...
 		 */
-		System.out.println("we made it this far..1");
 		terrain.build();
-		System.out.println("we made it this far..2");
 		
 		//TextureManager.getInstance().getTexture("details").setEnabled(showDetails);
 		
 		// Optimize the object.
-//		terrain.createTriangleStrips(2);
-//		terrain.compileAndStrip();
-//		terrain2.createTriangleStrips(2);
-//		terrain2.compileAndStrip();
-		System.out.println("we made it this far..3");
+		terrain.compileAndStrip();
+		terrain2.compileAndStrip();
 
 		world.addObject(terrain);
 	}

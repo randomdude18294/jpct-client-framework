@@ -177,8 +177,8 @@ public class DesktopEngine {
 			@Override
 			public void doWork() {
 				//PrimitiveTerrain terrain = new PrimitiveTerrain(world, true, 4f);
-				Terrain3ds terrain = new Terrain3ds(world, true, 4f);
-				//SplatterTerrain terrain = new SplatterTerrain(world, true, 1f);
+				//Terrain3ds terrain = new Terrain3ds(world, true, 4f);
+				SplatterTerrain terrain = new SplatterTerrain(world, true, 1f);
 				
 				player.teleport(terrain.SPAWN_POINT);
 				water = new StaticWater(world, terrain.getTerrain().getTransformedCenter(), 1);
